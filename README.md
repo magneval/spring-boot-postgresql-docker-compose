@@ -14,6 +14,10 @@ OR:
 
 `docker-compose up`
 
+`docker-compose pull mypostgres`
+`docker deploy --compose-file docker-compose.yml`
+
+
 **What happens:**
 
 1. Starts Postgresql and waits up to 15 seconds for it to finish ([using wait-for-it](https://github.com/vishnubob/wait-for-it))
