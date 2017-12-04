@@ -10,6 +10,8 @@ OR:
 
 ## 2. Run docker-compose
 
+`git clone https://github.com/magneval/spring-boot-postgresql-docker-compose.git`
+
 `cd src/main/docker`
 
 `docker-compose up`
