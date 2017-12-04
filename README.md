@@ -2,6 +2,8 @@
 
 ## 1. Build app & Dockerfile
 
+`git clone https://github.com/magneval/spring-boot-postgresql-docker-compose.git`
+
 `mvn clean install`
 
 OR:
@@ -9,8 +11,6 @@ OR:
 `docker run -it --rm --name my-maven-project -v "$PWD":/usr/src/mymaven -w /usr/src/mymaven -v /var/run/:/var/run/ maven mvn clean install`
 
 ## 2. Run docker-compose
-
-`git clone https://github.com/magneval/spring-boot-postgresql-docker-compose.git`
 
 `cd src/main/docker`
 
