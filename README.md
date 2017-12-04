@@ -15,13 +15,20 @@ OR:
 `docker-compose up`
 
 `docker pull dockersamples/visualizer`
+
 `docker run -it -d -p 8081:8080 -v /var/run/docker.sock:/var/run/docker.sock dockersamples/visualizer`
+
 `docker service create   --name=viz   --publish=5000:8080/tcp   --constraint=node.role==manager   --mount=type=bind,src=/var/run/docker.sock,dst=/var/run/docker.sock   dockersamples/visualizer`
 
+
 `docker-compose pull mypostgres`
+
 `docker deploy --compose-file docker-compose.yml`
+
 `docker service ls`
+
 `docker service scale demo_app=3`
+
 `docker service ls`
 
 **What happens:**
