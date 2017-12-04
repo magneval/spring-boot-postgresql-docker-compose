@@ -16,7 +16,9 @@ OR:
 
 `docker-compose pull mypostgres`
 `docker deploy --compose-file docker-compose.yml`
-
+`docker service ls`
+`docker service scale demo_app=3`
+`docker service ls`
 
 **What happens:**
 
