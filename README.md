@@ -25,7 +25,7 @@ OR:
 
 `docker-compose pull mypostgres`
 
-`docker deploy --compose-file docker-compose.yml`
+`docker deploy --compose-file docker-compose.yml` demo
 
 `docker service ls`
 
