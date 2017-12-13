@@ -1,5 +1,11 @@
 # Spring Boot app & Postgresql & Docker compose
 
+## 0. launch Play with Docker
+
+go to https://labs.play-with-docker.com/
+select 3 manager 2 worker
+goto to the first manager
+
 ## 1. Build app & Dockerfile
 
 `git clone https://github.com/magneval/spring-boot-postgresql-docker-compose.git`
